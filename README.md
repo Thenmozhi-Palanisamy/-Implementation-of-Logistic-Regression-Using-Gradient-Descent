@@ -15,11 +15,11 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 5. Define a function to plot the decision boundary and predict the Regression value.
 ## Program:
 ```
-/*
+
 Program to implement the the Logistic Regression Using Gradient Descent.
 Developed by: Thenmozhi P
 RegisterNumber: 21222123116 
-*/
+
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -111,7 +111,7 @@ def predict(theta, X):
     return (prob>=0.5).astype(int)
     
 np.mean(predict(res.x,X) == y)
-`
+```
 ## Output:
 
 ## Array value of x
@@ -151,7 +151,7 @@ np.mean(predict(res.x,X) == y)
 
 ![image](https://user-images.githubusercontent.com/95198708/234184456-d82c432a-b41d-488a-b3c2-2beae67398b1.png)
 
-##Prediction value of mean
+## Prediction value of mean
 
 ![image](https://user-images.githubusercontent.com/95198708/234184592-232219c1-6725-44a4-868d-660c9b160e4a.png)
 
