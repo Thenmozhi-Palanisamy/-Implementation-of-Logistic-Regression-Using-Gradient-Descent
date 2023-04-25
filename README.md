@@ -111,7 +111,7 @@ def predict(theta, X):
     return (prob>=0.5).astype(int)
     
 np.mean(predict(res.x,X) == y)
-
+`
 ## Output:
 
 ## Array value of x
